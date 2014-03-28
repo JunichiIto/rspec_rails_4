@@ -45,14 +45,14 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # gem 'debugger', group: [:development, :test]
 
 group :development do
-  gem 'guard-rspec', '~> 3.0.2'
+  gem 'guard-rspec'
   gem 'guard-spork', '~> 1.5.1'
   gem 'spork-rails', github: 'sporkrb/spork-rails'
   gem 'rb-fsevent', '~> 0.9.3'
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 2.14.0"
+  gem "rspec-rails", "2.99.0.beta2"
   gem "factory_girl_rails", "~> 4.2.1"
 end
 
