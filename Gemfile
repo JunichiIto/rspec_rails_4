@@ -61,7 +61,7 @@ group :test do
   gem "capybara", github: "jnicklas/capybara"
   gem "database_cleaner", "~> 1.0.1"
   gem "launchy", "~> 2.3.0"
-  gem "shoulda-matchers", "~> 2.2.0"
+  gem "shoulda-matchers", "~> 2.5.0"
   gem "selenium-webdriver", "~> 2.39.0"
   gem 'rspec-collection_matchers', '~> 0.0.3'
 end
