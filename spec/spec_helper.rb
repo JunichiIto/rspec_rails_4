@@ -27,6 +27,10 @@ Spork.prefork do
 
     # Include Factory Girl syntax to simplify calls to factories
     config.include FactoryGirl::Syntax::Methods
+
+    config.mock_with :rspec do |c|
+      c.yield_receiver_to_any_instance_implementation_blocks = true
+    end
   end
 end
 
